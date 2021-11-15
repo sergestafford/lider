@@ -5,7 +5,6 @@ class YandexAutomate:
     def __init__(self):
         self.browser = webdriver.Chrome(executable_path='./chromedriver')
 
-
     def login(self, email, password):
         self.browser.get(
             "https://passport.yandex.ru/auth/welcome?from=mail&origin=hostroot_homer_auth_L_ru&retpath=https%3A%2F%2Fmail."
